@@ -13,13 +13,15 @@ Some things will probably be broken, especially drivers.  I made this formula fo
 ## Installation
 
 ```sh
-brew install --formula https://raw.githubusercontent.com/Ravenstine/chirp-py3/main/chirp-py3.rb
+curl "https://raw.githubusercontent.com/Ravenstine/chirp-py3/main/chirp-py3.rb" > "/tmp/chirp-py3.rb" && \
+brew install --formula "/tmp/chirp-py3.rb"
 ```
 
 ## Install Latest HEAD
 
 ```sh
-brew install --formula --HEAD https://raw.githubusercontent.com/Ravenstine/chirp-py3/main/chirp-py3.rb
+curl "https://raw.githubusercontent.com/Ravenstine/chirp-py3/main/chirp-py3.rb" > "/tmp/chirp-py3.rb" && \
+brew install --formula "/tmp/chirp-py3.rb"
 ```
 
 ## Uninstallation
